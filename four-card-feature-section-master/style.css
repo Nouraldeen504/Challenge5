@@ -1,0 +1,108 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3em;
+}
+
+h1 {
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.hero p {
+    max-width: 40%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.hero {
+    margin-bottom: 4em;
+}
+
+.container {
+    width: fit-content;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 2em;
+
+    margin-bottom: 5em;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+p {
+    color: #b1b1b1;
+}
+
+.container p {
+    max-width: 20em;
+    margin-bottom: 2em;
+}
+
+h2, h1 {
+    color: rgb(81, 81, 94);
+}
+
+.light {
+    font-weight: 200;
+}
+
+.first, .third {
+    height: fit-content;
+    position: relative;
+    top: 8em;
+}
+
+.first, .sec1, .sec2, .third {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1em 2em;
+}
+
+.first {
+    border-top: 4px solid #45d3d3;
+}
+
+.sec1 {
+    border-top: 4px solid #ea5353;
+}
+
+.sec2 {
+    border-top: 4px solid #fcaf4a;
+}
+
+.third {
+    border-top: 4px solid #549ef2;
+}
+
+img {
+    position: relative;
+    left: 75%;
+}
+
+@media screen and (max-width: 1230px) {
+    .container {
+        flex-direction: column;
+        gap: 2em;
+        margin-bottom: 5;
+    }
+    .first, .third {
+        top: 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .hero p {
+        max-width: 90%;
+    }
+
+
+}
